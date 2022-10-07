@@ -100,5 +100,33 @@
     100%{
         transform: rotate(0deg);
     }
+}
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: move-top 2s linear infinite;
+}
+@keyframes move-top {
+    0%{
+        right: 10%;
+    }
+    70%{
+        right: calc(100% - 60px);
+    }
+    100%{
+        right: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move-bottom 2s linear infinite;
+}
+@keyframes move-bottom {
+    0%{
+       left: 10%;
+    }
+    70%{
+        left: calc(100% - 60px);
+    }
+    100%{
+        left: 10%;
+    }
 }
