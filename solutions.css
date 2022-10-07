@@ -87,3 +87,18 @@
     }
 }
 
+.ex-11-icon {
+    animation: incomplete-rotation 2s linear infinite;
+}
+@keyframes incomplete-rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
