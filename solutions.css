@@ -64,3 +64,13 @@
     border-radius: 20px;
     filter: saturate(0.2) brightness(0.25);
 }
+
+.ex-9-img {
+    transition: 5s;
+}
+
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: saturate(.4) sepia(1);
+    width: 600px;
+}
