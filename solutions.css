@@ -74,3 +74,16 @@
     filter: saturate(.4) sepia(1);
     width: 600px;
 }
+
+.ex-10-icon {
+    animation: rotation 2s linear infinite ;
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
