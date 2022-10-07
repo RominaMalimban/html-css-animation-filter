@@ -47,3 +47,11 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+
+.ex-7-img{
+    transition: all 5s;
+}
+
+.ex-7-img:hover{
+    filter: saturate(.4) sepia(1);
+}
